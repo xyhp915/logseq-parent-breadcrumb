@@ -1,0 +1,16 @@
+{
+  "name": "logseq-parent-breadcrumb",
+  "version": "0.1.5",
+  "main": "dist/index.js",
+  "logseq": {
+    "id": "logseq-parent-breadcrumb",
+    "title": "Parent Breadcrumb"
+  },
+  "scripts": {
+    "build": "mkdir -p dist && cp index.js dist/index.js"
+  },
+  "dependencies": {
+    "@logseq/libs": "^0.0.17"
+  },
+  "license": "MIT"
+}
